@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="/lib/bootstrap/css/bootstrap.min.css" >
+        <link rel="stylesheet" href="/styles/app.css"/>
+        <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+
+        <title>MyApp</title>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="header">
+                <div class="navbar navbar-fixed-top">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <a class="brand" href="/">Root /</a>
+
+                            <div class="nav-collapse collapse">
+                                <ul class="nav" mc-tabs></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="main" class="container" ng-view></div>
+        </div>
+
+        <script type="text/javascript" src="/bower_components/requirejs/require.js" data-main="/scripts/bootstrap.js"></script>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+[
+  {
+    "id": "contact",
+    "title": "Contact",
+    "order": 2,
+    "templateUrl": "/views/contact.html",
+    "deps": [
+      "controllers/ContactViewCtrl"
+    ]
+  },
+  {
+    "id": "home",
+    "title": "Home",
+    "order": 0,
+    "templateUrl": "/views/home.html",
+    "deps": [
+      "controllers/HomeViewCtrl"
+    ]
+  },
+  {
+    "id": "about",
+    "title": "About",
+    "order": 1,
+    "templateUrl": "/views/about.html",
+    "deps": [
+      "controllers/AboutViewCtrl"
+    ]
+  }
+]

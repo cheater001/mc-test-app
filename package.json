@@ -1,0 +1,10 @@
+{
+  "name": "MyApp",
+  "version": "1.0.0",
+  "description": "Test App for Midnight Coders",
+  "author": "Alexander Midtsev (midtsev@gmail.com)",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "express": "~3.2.0"
+  }
+}
