@@ -1,7 +1,7 @@
 define(['app'], function(app) {
     app.controller('AboutViewCtrl', ['$scope', function($scope) {
         $scope.page = {
-            heading: 'About Us'
+            heading: 'About Us - comming from controller'
         };
     }]);
 });
